@@ -41,7 +41,7 @@ class InteractionLogCreate(SQLModel):
 
 
 class InteractionModel(SQLModel):
-    """Response schema for an interaction."""
+    """Response schema for an interaction log."""
 
     id: int
     learner_id: int
